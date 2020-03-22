@@ -1,0 +1,79 @@
+
+   <ion-header>
+   <ion-toolbar>
+        <ion-title>Pendaftaran</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+
+
+<ion-content>
+    
+  <ion-item>
+    <ion-label position="floating">No.Induk Siswa<ion-text color="danger">*</ion-text></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Nama Siswa<ion-text color="danger">*</ion-text></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Jenis Kelamin</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="Laki-Laki">Laki-Laki</ion-select-option>
+      <ion-select-option value="Perempuan">Perempuan</ion-select-option>
+      
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Tempat Lahir</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label position="floating">Tgl. Lahir</ion-label>
+      <ion-datetime displayFormat="DD MMMM YYYY" placeholder=""></ion-datetime>
+    </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Agama</ion-label>
+    <ion-select placeholder="">
+      <ion-select-option value="Islam">Islam</ion-select-option>
+      <ion-select-option value="02">Kristen</ion-select-option>
+      <ion-select-option value="03">Hindu</ion-select-option>
+      <ion-select-option value="04">Budha</ion-select-option>
+      <ion-select-option value="05">Konguchu</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Anak ke<ion-text color="danger">*</ion-text></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Status dalam Keluarga<ion-text color="danger">*</ion-text></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Nama Sekolah Asal<ion-text color="danger"></ion-text></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Alamat Sekolah Asal<ion-text color="danger"></ion-text></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+</ion-content>
+<section>
+  
+    
+    <ion-button expand="block" fill="outline" (click)="lanjutpendaftarandua()">Lanjutkan</ion-button>
+    
+    
+  </section>

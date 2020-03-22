@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-icon name="apps"></ion-icon>
+    </ion-buttons>
+
+    <ion-title>dashboard</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-icon name="unlock" (click)="logout()"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col expand="block" (click)="pendaftaran()">
+        <img src="../../../assets/Pendaftaran.png">Pendaftaran
+      </ion-col>
+      <ion-col>
+        <img src="../../../assets/DataKelas.png">Data Murid
+      </ion-col>
+      <ion-col>
+        <img src="../../../assets/BeritaTerkini.png">Berita Terkini
+      </ion-col>
+      
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <img src="../../../assets/guru.png">Data Guru
+      </ion-col>
+      <ion-col>
+        <img src="../../../assets/about.png">Tentang
+      </ion-col>
+      <ion-col>
+        <img src="../../../assets/news.png">Berita
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
